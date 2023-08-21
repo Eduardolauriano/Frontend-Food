@@ -78,16 +78,6 @@ export function Home() {
         
         <h1>Pratos Principais</h1>
 
-        <Carousel cols={4} rows={1} loop={true} gap={0} className="carrousel-wrapper">
-          {
-            searchResults.map(dish => (
-              <Carousel.Item key={dish.id}>
-                <Card data={dish}/>
-              </Carousel.Item>
-            ))
-          }
-        </Carousel>
-
         <Carousel cols={3} rows={1} loop={true} gap={0}>
           {
             mainDishes.map(dish => (

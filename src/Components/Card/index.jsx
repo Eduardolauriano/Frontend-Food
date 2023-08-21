@@ -3,7 +3,7 @@ import { Container, FavIcon, MinusIcon, PlusIcon } from './styles'
 import { FiHeart, FiMinus, FiPlus } from 'react-icons/fi'
 
 import { useNavigate } from 'react-router-dom'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 import { Button } from '../../Components/Button'
 
